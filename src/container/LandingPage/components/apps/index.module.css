@@ -1,0 +1,57 @@
+.approot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appContent {
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #141414;
+  margin-top: 10px;
+}
+
+.appdownload {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.simplifyLeft {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.simplifyLeftText {
+  font-family: "NCAA UTSA Roadrunners";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  color: #141414;
+}
+
+.simplifyLeftText span {
+  color: #8a48ef;
+}
+
+.simplifyRightImg,
+.appimg {
+  width: 50%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 440px) {
+    .appdownload {
+        margin-left: -15px;
+    }
+
+    .simplifyLeftText {
+      font-size: 28px;
+    }
+}

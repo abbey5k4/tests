@@ -1,0 +1,68 @@
+.simplifyRoot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2px 10px;
+}
+
+.simplifyLeft {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.simplifyP {
+  font-family: "Sofia Pro";
+  font-style: normal;
+}
+
+.simplifyLeftText {
+  font-family: "NCAA UTSA Roadrunners";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+
+  color: #141414;
+}
+
+.simplifyLeftText span {
+  color: #8a48ef;
+}
+
+.simplifyRightImg {
+  height: 700px;
+  width: auto;
+}
+
+.imgD {
+  margin-top: 100px !important;
+}
+
+@media only screen and (max-width: 440px) {
+  .simplyRight {
+    width: 350px;
+    height: 350px;
+  }
+
+  .simplifyRightImg {
+    height: auto;
+    width: 100%;
+  }
+
+  .imgD {
+    display: none;
+  }
+  .simplifyRoots {
+    text-align: left;
+  }
+
+  .simplifyLeftText {
+    font-size: 28px;
+  }
+
+  .simplifyLeftText {
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+}

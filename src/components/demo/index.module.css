@@ -1,0 +1,31 @@
+.simplifyLeftText {
+  font-family: "NCAA UTSA Roadrunners";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  color: #fff;
+}
+
+.demoBg {
+  background-color: #8a48ef;
+  border-radius: 10px;
+}
+
+.demoParagraph {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 10px 0px;
+}
+
+.demoButton {
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #8a48ef;
+    border: none;
+    border-radius: 3px;
+}

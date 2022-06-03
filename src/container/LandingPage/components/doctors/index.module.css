@@ -1,0 +1,57 @@
+.dotorsWrapper {
+  margin-top: -300px;
+}
+.imgHolder {
+  width: 500px;
+  margin-top: -180px;
+}
+
+.imgHolderX {
+  width: 500px;
+}
+
+.imgHolder img,
+.imgHolderX img {
+  width: 100%;
+}
+
+.dockerrightRoot {
+  margin-top: 50px;
+}
+
+.dockerrightContentRoot {
+  text-align: left;
+}
+
+.dockerrightContent {
+  font-family: "Apercu Pro";
+  /* font-style: normal; */
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 50px;
+  color: #141414;
+}
+
+.dockerrightContentButton {
+  font-family: "Apercu Pro";
+  padding: 0%;
+  margin-top: 10px;
+  border: none;
+  background: transparent;
+}
+
+@media only screen and (max-width: 440px) {
+  .imgHolder {
+    width: 330px;
+    margin-top: 50px;
+  }
+
+  .imgHolderX {
+    display: none;
+  }
+
+  .imgHolder img {
+    width: 100%;
+  }
+}

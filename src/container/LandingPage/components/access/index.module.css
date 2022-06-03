@@ -1,0 +1,66 @@
+.accessmedicalRoot {
+  background: url("../../../../../public/assets/accessbackground.svg");
+  padding: 40px 0px;
+}
+
+.accessmedicalHeading {
+  font-family: "NCAA UTSA Roadrunners";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 40px;
+  text-align: left;
+  color: #fafafa;
+}
+
+.accessmedicalHeadingBody {
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #fafafa;
+}
+
+.accessmedicalContentRoot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.accessmedicalContentHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.accessmedicalContentHeaderText {
+  font-family: "NCAA UTSA Roadrunners";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fafafa;
+}
+
+.accessmedicalContentBody {
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  color: #fafafa;
+}
+
+@media only screen and (max-width: 440px) {
+  .accessmedicalRoot {
+    text-align: left;
+  }
+
+  .accessmedicalHeading {
+    font-size: 28px;
+  }
+}

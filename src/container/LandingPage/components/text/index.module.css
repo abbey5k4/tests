@@ -1,0 +1,15 @@
+.mainBg {
+    background: url('../../../../../public/assets/bgText.svg');
+    background-size: contain;
+    height: 250px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 440px) {
+    .mainBg {
+        height: 100px;
+        margin-bottom: 1rem!important;
+        margin-top: 1rem!important;
+    }
+}

@@ -1,0 +1,46 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'NCAA UTSA Roadrunners';
+  src: local('ncca'), url(./fonts/ncca.otf) format('woff');
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: local('apercu_regular_pro'), url(./fonts/apercu_regular_pro.otf) format('woff');
+}
+
+@media only screen and (max-width: 440px) {
+  .simplifyRoots,
+  .seamlesslyRoot,
+  .accessmedicalRoot,
+  .appsLayout {
+    text-align: left;
+  }
+
+  .simplifyLeftText,
+  h3.seamlesslyLeftText,
+  .accessmedicalHeading {
+    font-size: 28px;
+  }
+
+  .simplifyLeftText {
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,48 @@
+.background {
+  mix-blend-mode: normal;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  height: 600px;
+  background: url("../../../../../public/assets/background.svg"), #eedafe;
+}
+
+.doctorleftroot {
+  padding-right: 10%;
+  margin-top: 20px;
+}
+
+.doctorleftbody {
+  width: 100%;
+}
+
+.doctorleftText {
+  font-family: "NCAA UTSA Roadrunners";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: left;
+  color: #8a48ef;
+}
+
+.doctorleftSpan {
+  color: #000000;
+}
+
+.doctorleftContent {
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #141414;
+}
+
+
+@media only screen and (max-width: 440px) {
+    .doctorleftText {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}

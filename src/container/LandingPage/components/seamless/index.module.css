@@ -1,0 +1,54 @@
+.seamlesslyRoot {
+  margin-top: 20px;
+}
+
+.seamlesslyLeftText {
+  font-family: "NCAA UTSA Roadrunners";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  color: #8a48ef;
+}
+
+.seamlesslyLeftText span {
+  color: #141414;
+}
+
+.seamlesslyOverlapRoot {
+  margin: 30px 0px;
+}
+.seamlesslyOverlap {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px;
+}
+
+.seamlesslysection {
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 52px;
+  line-height: 46px;
+  color: #8c8c8c31;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  margin: 10px 20px;
+}
+
+.seamlessP {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 440px) {
+  .seamlesslyRoot {
+    text-align: left;
+  }
+
+  .seamlesslyLeftText {
+    font-size: 28px;
+  }
+}

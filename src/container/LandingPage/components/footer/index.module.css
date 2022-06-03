@@ -1,0 +1,74 @@
+/* .footerBg { */
+/* background-color: #E5E5E5;
+    color: green; */
+/* } */
+.tabheaderText {
+  font-family: "NCAA UTSA Roadrunners";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #595959;
+  margin: 20px 0px;
+  text-align: left;
+}
+
+.tabListText {
+  font-family: "Apercu Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8c8c8c;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px 0px;
+  text-align: left;
+}
+
+.contentRoot {
+  margin: 20px 0px;
+  text-align: left;
+}
+
+
+.contentHeaderTextRoot {
+    margin: 10px 0px;
+    font-family: "Sofia Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+  }
+  
+  .contentBodyRoot {
+    margin: 10px 0px;
+  }
+  
+  .contentBody1 {
+    font-family: "Sofia Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    margin: 10px 0px;
+  
+  }
+  
+  .contentBody2 {
+    font-family: "Sofia Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    margin: 10px 0px;
+  
+  }
+  
+  .contentBodyspan {
+    color: #8A48EF;
+  }
